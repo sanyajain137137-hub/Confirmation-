@@ -13,8 +13,8 @@ function nextQuestion() {
     question.innerText = "What do you like the most?";
     subtext.innerText = "";
     options.innerHTML = `
-      <button onclick="nextQuestion()">You 😌</button>
-      <button onclick="nextQuestion()">Us ❤️</button>
+      <button onclick="nextQuestion()">Food </button>
+      <button onclick="nextQuestion()">Me ❤️</button>
     `;
   }
 
