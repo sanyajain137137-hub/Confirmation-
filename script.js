@@ -9,7 +9,7 @@ function nextQuestion() {
   step++;
 
   if (step === 1) {
-    cuteImg.src = "images/dudu2.png";
+    cuteImg.src = "dudu2.png";
     question.innerText = "What do you like the most?";
     subtext.innerText = "";
     options.innerHTML = `
@@ -19,7 +19,7 @@ function nextQuestion() {
   }
 
   else if (step === 2) {
-    cuteImg.src = "images/dudu3.png";
+    cuteImg.src = "dudu3.png";
     question.innerText = "Who makes you smile the most?";
     options.innerHTML = `
       <button onclick="nextQuestion()">Sanya 😊</button>
@@ -28,7 +28,7 @@ function nextQuestion() {
   }
 
   else if (step === 3) {
-    cuteImg.src = "images/dudu4.png";
+    cuteImg.src = "dudu4.png";
     question.innerText = "Will you be my Valentine? 😳❤️";
     subtext.innerText = "Think very carefully";
 
@@ -49,7 +49,7 @@ function moveNo() {
 
 // YES clicked 🥹💘
 function yesClicked() {
-  cuteImg.src = "images/dudu1.png";
+  cuteImg.src = "dudu1.png";
   question.innerText = "YAYYYY 🥰❤️";
   subtext.innerText = "";
 
